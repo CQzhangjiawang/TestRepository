@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+	display: none;
+}
+body{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+marquee {
+	font-weight: bolder;
+	font-size: 40px;
+	color: white;
+}
+
+#lrc p {
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#controllers {
+	line-height: 60px;
+	font-size: 1.4em;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+#controllers i,#controllers select,#controllers .el-slider {
+	box-shadow: 1px 1px 1px 1px #999999;
+	border-radius: 15px;
+	padding: 3px;
+}
+
+#volume-slider {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+}
+
+.overlay {
+	cursor: pointer;
+}
